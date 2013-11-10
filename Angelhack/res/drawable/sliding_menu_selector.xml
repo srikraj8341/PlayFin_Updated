@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <selector xmlns:android="http://schemas.android.com/apk/res/android"> -->
+<!--     <item android:drawable="@color/sliding_menu_selector" android:state_pressed="true" /> -->
+<!--     <item android:drawable="@color/sliding_menu_selector" android:state_selected="true" /> -->
+<!--    <item android:drawable="@android:color/transparent" android:state_selected="false" /> -->
+<!--    <item android:drawable="@android:color/transparent" android:state_pressed="false" /> -->
+<!--    <item android:state_focused="false" android:drawable="@android:color/transparent" /> -->
+<!-- </selector> -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_focused="true" android:drawable="@color/sliding_menu_selector" />
+    <item android:state_focused="false" android:drawable="@android:color/transparent" />
+    
+   
+</selector>
+
+<!-- <selector xmlns:android="http://schemas.android.com/apk/res/android"> -->
+<!--     <item android:state_pressed="true" -->
+<!--           android:drawable="@color/sliding_menu_selector"/> pressed -->
+<!--     <item android:state_focused="true" -->
+<!--           android:drawable="@color/sliding_menu_selector"/> focused -->
+<!--     <item android:drawable="@android:color/transparent"/> default -->
+<!-- </selector> -->
