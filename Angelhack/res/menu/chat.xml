@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dogalize="http://schemas.android.com/apk/res-auto" >
+    
+    <item
+        android:id="@+id/chat_settings"
+        dogalize:showAsAction="always"
+        android:orderInCategory="101"
+        android:icon="@drawable/ic_core_overflow"
+        android:title="@string/dogalize_settings"/>
+  
+     
+
+</menu>

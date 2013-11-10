@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dogalize="http://schemas.android.com/apk/res-auto" >
+    
+<!--     <item -->
+<!--         android:id="@+id/commando_kennels_settings" -->
+<!--         dogalize:showAsAction="always" -->
+<!--         android:orderInCategory="100" -->
+<!--         android:icon="@drawable/ic_core_overflow" -->
+<!--         android:title="@string/dogalize_settings"/> -->
+  
+     
+
+</menu>

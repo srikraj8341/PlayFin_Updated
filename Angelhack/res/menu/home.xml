@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dogalize="http://schemas.android.com/apk/res-auto" >
+    
+    <item
+        android:id="@+id/content_new_event"
+        android:title="@string/content_new_event"
+        android:titleCondensed="@string/content_new_event"
+        android:icon="@drawable/ic_action_content_new_event"
+        android:orderInCategory="101"
+        dogalize:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/dogalize_settings"
+        dogalize:showAsAction="always"
+        android:orderInCategory="102"
+        android:icon="@drawable/ic_action_action_settings"
+        android:title="@string/dogalize_settings"/>
+  
+     
+
+</menu>

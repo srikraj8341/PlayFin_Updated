@@ -1,0 +1,7 @@
+<resources>
+
+    <dimen name="screen_padding">32dp</dimen>
+
+    <bool name="portrait_only">false</bool>
+
+</resources>

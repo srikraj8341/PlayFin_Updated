@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_background"
+    android:padding="@dimen/checkin_card_padding"
+    android:paddingLeft="@dimen/checkin_card_padding"
+    android:paddingRight="@dimen/checkin_card_padding" >
+
+    <LinearLayout
+        android:id="@+id/edit_feature"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/new_chat_call_background"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <include
+            android:id="@+id/cancel_user_profile"
+            layout="@layout/user_profile_cancel_button" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="28dp"
+            android:layout_marginBottom="14dp"
+            android:layout_marginTop="14dp"
+            android:background="@color/transperent_white" />
+
+        <include
+            android:id="@+id/save_user_profile"
+            layout="@layout/user_profile_save_button" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/edit_feature"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/add_dog_name_et"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_et_card"
+                android:hint="Activity e.g. Badminton"
+                android:singleLine="true" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_et_card"
+                android:hint="Location"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/add_dog_dob"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_et_card"
+                android:gravity="left|center_vertical"
+                android:text="Date Time"
+                android:textColor="@android:color/darker_gray" />
+
+            <Spinner
+                android:id="@+id/character_et"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_et_card"
+                android:entries="@array/types"
+                android:hint="@string/add_dog_character"
+                android:singleLine="true" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

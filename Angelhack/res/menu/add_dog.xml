@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dogalize="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_save_dog_profile"
+        android:orderInCategory="100"
+         dogalize:showAsAction="always"
+        android:title="@string/action_add_dog_save"/>
+
+</menu>

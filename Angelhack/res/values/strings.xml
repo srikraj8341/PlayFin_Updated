@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PlayFin</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="getstarted">Get Started</string>
+    <string name="signin">Sign In</string>
+    <string name="dogalizeaccount">Create PlayFin Account</string>
+    <string name="existingdogalizeaccount">Existing PlayFin Account</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="verifypassword">Verify Password</string>
+    <string name="login">Login</string>
+    <string name="fblogin">Sign In With Facebook</string>
+    <string name="signup">Sign Up</string>
+    <string name="fb_sign_up">Sign Up With Facebook</string>
+    <string name="dogalize_settings">Dogalize Settings</string>
+    <string name="dogalize_add_friends">Invite Friends</string>
+    <string name="content_new_event">Content New</string>
+    <string name="done">Done</string>
+    <string name="edit_content">Edit</string>
+    <string name="title_activity_home">PlayFin</string>
+    <string name="title_activity_dogalize_login">PlayFin Login</string>
+    <string name="title_activity_dogalize__sign__up_">PlayFin Sign Up</string>
+    <string name="fb">Facebook</string>
+    <string name="hint">Enter name,email or phone number</string>
+    <string name="select_image_source_type">Select Image Source</string>
+    <string name="select_camera">Camera</string>
+    <string name="select_gallery">Gallery</string>
+    <string name="select_video">Video</string>
+    <string name="cancel">Cancel</string>
+    <string name="welcome">Welcome to</string>
+    <string name="share">Share</string>
+    <string name="sort_by">Sort By</string>
+    <string name="ok">OK</string>
+    <string name="signingin">Signing you in &#8230;One moment</string>
+    <string name="checkin">CheckIn</string>
+    <string name="add_dog_name">Name</string>
+    <string name="add_dog_breed_name">Breed</string>
+    <string name="add_dog_character">Character</string>
+    <string name="add_dog_category">Category</string>
+    <string name="add_dog_additional_info">Additional Info</string>
+    <string name="add_dog_dob">Date of Birth</string>
+    <string name="action_add_dog_save">Save</string>
+    <string name="add_dog">Add New Dog</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="add_video">Add Video</string>
+    <string name="user_videos">User Videos</string>
+    <string name="user_photos">User Photos</string>
+    <string name="invitefbfriends">Invite Facebook Friends</string>
+    <string name="emailtxt">Email</string>
+    <string name="emailhint">xyz@gmail.com</string>
+    <string name="city">City</string>
+    <string name="cityname">City Name</string>
+    <string name="state">State</string>
+    <string name="statename">State Name</string>
+    <string name="no_of_photos">25 Photos</string>
+    <string name="no_of_videos">12 Videos</string>
+    <string name="save_user">Save</string>
+    <string name="cancel_user">Cancel</string>
+    <string name="more_then_tenmb">File size should not exceed 10 MB</string>
+    <string name="oops">Oops!</string>
+    <string name="server_not_reponding"> Server not responding..</string>
+    <string name="breed">Breed</string>
+    <string name="character">Character</string>
+    <string name="add_dog_photo">Add Photo</string>
+    <string name="add_dog_video">Add Video</string>
+    <!-- 560751523978094 -->
+    <!-- Sreekant FB ID : 586282361438620 -->
+    <string-array name="sex">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+     <string-array name="types">
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Professional</item>
+    </string-array>
+   
+    <string-array name="dogalize_array">
+        <item>Profile</item>
+        <item>Initiate</item>
+        <item>My Games</item>
+        <item>Search</item>
+    </string-array>
+    
+
+ 
+   
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+
+    <!-- Preferences KEYS -->
+    <string name="key_istablet">ISTABLET</string>
+    <string name="key_isAppFirstTime">APP_FIRST_TIME</string>
+        <string name="title_activity_chat">ChatActivity</string>
+    <string name="getvalue">Get Value</string>
+    <string name="selectedcountries">Selected Countries</string>
+
+</resources>

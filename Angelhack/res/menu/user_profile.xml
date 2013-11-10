@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:dogalize="http://schemas.android.com/apk/res-auto">
+
+     <item
+        android:id="@+id/edit_user_profile"
+        android:title="@string/edit_content"
+        android:titleCondensed="@string/edit_content"
+        android:icon="@drawable/ic_user_edit"
+        android:orderInCategory="101"
+        dogalize:showAsAction="always"
+        />
+   
+</menu>

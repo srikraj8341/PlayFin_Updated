@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_background"
+    android:padding="@dimen/checkin_card_padding"
+    android:paddingLeft="@dimen/checkin_card_padding"
+    android:paddingRight="@dimen/checkin_card_padding" >
+
+    <LinearLayout
+        android:id="@+id/edit_feature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/new_chat_call_background"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <include
+            android:id="@+id/cancel_user_profile"
+            layout="@layout/user_profile_cancel_button" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="28dp"
+            android:layout_marginBottom="14dp"
+            android:layout_marginTop="14dp"
+            android:background="@color/transperent_white" />
+
+        <include
+            android:id="@+id/save_user_profile"
+            layout="@layout/user_profile_save_button" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/edit_feature"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="8dp" >
+
+            <RelativeLayout
+                android:id="@+id/profile_block"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:background="@drawable/user_profile_image_bg"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@+id/add_dog_img"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dogplaceholder" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/add_dog_img"
+                    android:orientation="vertical"
+                    android:paddingLeft="16dp" >
+
+                    <EditText
+                        android:id="@+id/add_dog_name_et"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_et_card"
+                        android:hint="@string/add_dog_name"
+                        android:singleLine="true" />
+
+                    <Button
+                        android:id="@+id/add_dog_dob"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/bg_et_card"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/add_dog_dob"
+                        android:textColor="@android:color/darker_gray" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="16dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="Location"
+                    android:textColor="@color/user_profile_tv_background"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/add_dog_breed"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_et_card"
+                    android:hint="Enter Location"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="Sex"
+                    android:textColor="@color/user_profile_tv_background"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/character_et"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_et_card"
+                    android:entries="@array/sex"
+                    android:hint="@string/add_dog_character"
+                    android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

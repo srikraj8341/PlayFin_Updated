@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="150dp"
+    >
+     <ImageView
+     android:layout_width="fill_parent"
+   	 android:layout_height="wrap_content"
+     android:id="@+id/navigation_img"
+     android:src="@drawable/chanelneuman"
+     android:scaleType="centerCrop"
+     />
+    
+<TextView 
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/layout_padding"
+    android:background="@color/transperent_black"
+    android:textColor="#fff"
+    android:text="Chanel Neuman"
+    />
+</RelativeLayout>
